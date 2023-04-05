@@ -8,6 +8,7 @@ router.get('/',(req,res,next)=>{
     .then(data=>{
         res.send(data);
         console.log(data);
+        console.log("dfyhfgh");
     })
 })
 
